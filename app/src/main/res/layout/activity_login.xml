@@ -80,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#00BFFF"
             android:text="@string/register" />
 

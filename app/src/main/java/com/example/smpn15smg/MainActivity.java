@@ -5,6 +5,7 @@ import androidx.cardview.widget.CardView;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar() .hide();
 
         ImageView simpleImageButtonNilai = (ImageView) findViewById(R.id.simpleImageButtonNilai);
         ImageView simpleImageButtonCalender = (ImageView) findViewById(R.id.simpleImageButtonCalender);

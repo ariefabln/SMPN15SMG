@@ -27,9 +27,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/home"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="40sp" />
         </RelativeLayout>
-
 
         <GridLayout
             android:columnCount="2"
@@ -37,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnOrderPreserved="false"
+            android:layout_marginTop="5dp"
             android:alignmentMode="alignMargins">
 
             <androidx.cardview.widget.CardView

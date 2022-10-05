@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg3"
     tools:context=".SplashScreen">
 
     <ProgressBar
@@ -25,11 +26,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:typeface="serif"
-        android:textAppearance="?android:attr/text"
-        android:textAlignment="center"
         android:layout_marginTop="90dp"
-        android:text="SMP N 15 SEMARANG"/>
+        android:text="SMP N 15 SEMARANG"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/text"
+        android:textSize="50sp"
+        android:typeface="serif" />
 
 </RelativeLayout>

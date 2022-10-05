@@ -36,6 +36,11 @@ public class register extends AppCompatActivity {
             public void onClick(View v) {
                 String username1 = username.getText().toString();
                 Toast.makeText(register.this, "Username is"+username1, Toast.LENGTH_SHORT).show();
+
+
+                Intent intent = new Intent(register.this, login.class);
+                register.this.startActivity(intent);
+                finish();
             }
         });
 
