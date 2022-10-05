@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMPN15SMG</string>
+    <string name="email">Email</string>
+    <string name="register">REGISTER</string>
+    <string name="username">Username</string>
+    <string name="number_phone">Number Phone</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="login">LOGIN</string>
+    <string name="home">HOME</string>
+</resources>
